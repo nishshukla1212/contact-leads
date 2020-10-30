@@ -1,0 +1,24 @@
+{
+  "name": "contact-leads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishshukla1212/contact-leads.git"
+  },
+  "author": "Nishith Shukla <nishith.shukla@arvatosystems.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishshukla1212/contact-leads/issues"
+  },
+  "homepage": "https://github.com/nishshukla1212/contact-leads#readme",
+  "dependencies": {
+    "aws-sdk": "^2.782.0",
+    "hunterio": "^1.0.0",
+    "line-reader": "^0.4.0"
+  }
+}
