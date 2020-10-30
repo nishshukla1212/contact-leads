@@ -36,7 +36,7 @@ Resources:
             Ref: TableName
           PRIMARY_KEY:
             Fn::Sub: ${TableName}Id
-      Handler: index.getContacts
+      Handler: index.handler
       Policies:
       - Statement:
         - Action:
@@ -54,7 +54,8 @@ Resources:
             - tableName:
                 Ref: TableName
           Effect: Allow
-      Runtime: nodejs8.10
+      CodeUri: /
+      Runtime: nodejs12.X
       Events:
         S3BucketEvent:
           Type: S3
